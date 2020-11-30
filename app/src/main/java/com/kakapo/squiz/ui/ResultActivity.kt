@@ -4,8 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.kakapo.quizapp.R
 import com.kakapo.quizapp.model.Constants
+import com.kakapo.squiz.R
+import com.kakapo.squiz.ui.MainActivity
 import kotlinx.android.synthetic.main.activity_result.*
 
 class ResultActivity : AppCompatActivity() {

@@ -1,6 +1,6 @@
 package com.kakapo.quizapp.model
 
-import com.kakapo.quizapp.R
+import com.kakapo.squiz.R
 
 object Constants {
 
