@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.fragment_quiz_menu.*
 
+
 lateinit var RV_new_menu: RecyclerView
 
 class QuizMenuFragment : Fragment() {
@@ -16,6 +17,7 @@ class QuizMenuFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_quiz_menu, container, false)
+
 
     }
 

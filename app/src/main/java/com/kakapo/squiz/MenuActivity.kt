@@ -21,8 +21,8 @@ class MenuActivity : AppCompatActivity() {
                     addFragment(fragment)
                     return@OnNavigationItemSelectedListener true
                 }
-                R.id.nav_quiz -> {
-                    val fragment = QuizMenuFragment()
+                R.id.nav_learn -> {
+                    val fragment = LearnFragment()
                     addFragment(fragment)
                     return@OnNavigationItemSelectedListener true
                 }
