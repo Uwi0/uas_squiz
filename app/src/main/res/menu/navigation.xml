@@ -11,10 +11,4 @@
         android:iconTint="#FFF"
         android:title="Dua" />
 
-    <item
-        android:id="@+id/nav_skor"
-        android:icon="@android:drawable/ic_menu_search"
-        android:iconTint="#FFF"
-        android:title="Dua" />
-
 </menu>
