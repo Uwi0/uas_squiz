@@ -27,7 +27,11 @@ class QuizMenuFragment : Fragment() {
         recyclerView.layoutManager = LinearLayoutManager(activity)
         val Category = ArrayList<Category>()
 
-        Category.add(Category("Hamburger"))
+        Category.add(Category("Kotlin"))
+        Category.add(Category("Java"))
+        Category.add(Category("Math"))
+        Category.add(Category("Math"))
+        Category.add(Category("Math"))
 
         val adapter = CategoryAdapter(Category)
         recyclerView.adapter = adapter
