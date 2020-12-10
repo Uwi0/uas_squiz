@@ -1,4 +1,4 @@
-package com.kakapo.quizapp.model
+package com.kakapo.squiz.model
 
 data class Question(
         val id: Int,

@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.kakapo.squiz.adapter.CategoryAdapter
 import kotlinx.android.synthetic.main.fragment_quiz_menu.*
 
 

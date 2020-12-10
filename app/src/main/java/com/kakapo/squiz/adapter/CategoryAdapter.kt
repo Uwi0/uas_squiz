@@ -1,10 +1,14 @@
-package com.kakapo.squiz
+package com.kakapo.squiz.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.kakapo.quizapp.ui.QuizQuestionActivity
+import com.kakapo.squiz.Category
+import com.kakapo.squiz.R
 
 class CategoryAdapter(val CategoryList: ArrayList<Category>) : RecyclerView.Adapter<CategoryAdapter.ViewHolder>() {
 
@@ -16,7 +20,10 @@ class CategoryAdapter(val CategoryList: ArrayList<Category>) : RecyclerView.Adap
 
     //this method is binding the data on the list
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bindItems(CategoryList[position])
+        holder.itemView.setOnClickListener {
+            val intent = Intent(holder.itemView.context, QuizQuestionActivity::class.java)
+            holder.itemView.context.startActivity(intent)
+        }
     }
 
     //this method is giving the size of the list
@@ -26,7 +33,6 @@ class CategoryAdapter(val CategoryList: ArrayList<Category>) : RecyclerView.Adap
 
     //the class is hodling the list view
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
         fun bindItems(Category: Category) {
 
             val textViewCourseCategoryName = itemView.findViewById(R.id.textViewCourseCategoryName) as TextView

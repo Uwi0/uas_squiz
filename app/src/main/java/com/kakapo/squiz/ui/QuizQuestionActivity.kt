@@ -9,8 +9,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.kakapo.quizapp.model.Constants
-import com.kakapo.quizapp.model.Question
 import com.kakapo.squiz.R
+import com.kakapo.squiz.model.Question
 import kotlinx.android.synthetic.main.activity_quiz_question.*
 
 class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
