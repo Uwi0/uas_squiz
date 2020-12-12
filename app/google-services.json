@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "55866621269",
+    "firebase_url": "https://squiz-d0daf-default-rtdb.firebaseio.com",
+    "project_id": "squiz-d0daf",
+    "storage_bucket": "squiz-d0daf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55866621269:android:192c7d842c2096898483dc",
+        "android_client_info": {
+          "package_name": "com.kakapo.squiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55866621269-2misa6pm921689gjpema9rscgesekh6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuVzWLAo3GEdPAO7_whtkYfZSQj2WtRM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55866621269-2misa6pm921689gjpema9rscgesekh6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
