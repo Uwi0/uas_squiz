@@ -1,4 +1,4 @@
-package com.kakapo.quizapp.ui
+package com.kakapo.squiz.ui
 
 import android.content.Intent
 import android.graphics.Color
@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.kakapo.quizapp.model.Constants
+import com.kakapo.squiz.model.Constants
 import com.kakapo.squiz.R
 import com.kakapo.squiz.model.Question
 import kotlinx.android.synthetic.main.activity_quiz_question.*
@@ -93,7 +93,7 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
 
         
 
-        val question = mQuestionList!![mCurrentPosition - 1]
+        val question = mQuestionList!![mCurrentPosition -1 ]
 
         defaultOptionView()
 
@@ -106,7 +106,6 @@ class QuizQuestionActivity : AppCompatActivity(), View.OnClickListener {
         tv_progress.text = ("$mCurrentPosition / ${progress_bar.max}")
 
         tv_question.text = question.question
-        iv_image.setImageResource(question.image)
         tv_option_one.text = question.optionOne
         tv_option_two.text = question.optionTwo
         tv_option_three.text = question.optionThree

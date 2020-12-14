@@ -4,8 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.kakapo.quizapp.model.Constants
-import com.kakapo.quizapp.ui.QuizQuestionActivity
+import com.kakapo.squiz.model.Constants
+import com.kakapo.squiz.ui.QuizQuestionActivity
 import com.kakapo.squiz.R
 import kotlinx.android.synthetic.main.activity_main.*
 
