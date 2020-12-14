@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.*
+import com.google.firebase.database.FirebaseDatabase
 import com.kakapo.squiz.adapter.CategoryAdapter
 import kotlinx.android.synthetic.main.fragment_quiz_menu.*
 
