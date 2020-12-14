@@ -32,7 +32,7 @@ class QuizMenuFragment : Fragment() {
         RV_new_menu?.layoutManager = LinearLayoutManager(context)
 
         CatList = arrayListOf<Category>()
-        ref = FirebaseDatabase.getInstance().getReference("Category")
+        ref = FirebaseDatabase.getInstance().getReference("category")
 
 
         ref?.addValueEventListener(object : ValueEventListener {
